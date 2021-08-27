@@ -5,7 +5,6 @@ import api from './key.js'
             key: _____________
         }
 */
-
 //GET Fetch Requisition
  fetch('https://pro-api.coinmarketcap.com/v1/cryptocurrency/map?CMC_PRO_API_KEY='+api.key)
      .then((response) => {
