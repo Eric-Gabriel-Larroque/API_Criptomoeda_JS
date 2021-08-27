@@ -40,7 +40,7 @@
   
   4. Depois de ter criado sua conta e obtido a chave, a insira no campo comentado no arquivo .js (caso queira desenvolver a aplicação, exporte a chave de outro arquivo js ou json).
 
-## Creditos:
+## Créditos:
 
 - Ícones de mídia social feitos por:
   - <div><a href="https://www.freepik.com" title="Freepik">Freepik</a> do <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a>;</div>
