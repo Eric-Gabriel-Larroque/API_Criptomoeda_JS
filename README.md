@@ -2,7 +2,7 @@
 
 <center>
 
-![](../img/cmcAPI.gif)
+![](./img/cmcAPI.gif)
 
 </center>
 
@@ -20,7 +20,7 @@
 
 <center>
 
-![](../img/HowToDownloadRepo.gif)
+![](./img/HowToDownloadRepo.gif)
 
 </center>
 
