@@ -6,17 +6,17 @@
 
 </center>
 
-> Adding an interface and image for each top 20 cryptocoins 
+> **Status:** Em desenvolvimento
 
-## Description
+## Descrição:
 
-* A simple inteface created with [bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/) and the [CMC API](https://coinmarketcap.com/api/) information;
-* Sorting the most 20 valuables cryptocoins according to CMC site;
-* Each one with her own icon, symbol, name and stats, shown by pressing the button redirecting to CMC site;
+* Uma interface simples criada com  [bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/) e com as infromações da [API do Coin Market Cap](https://coinmarketcap.com/api/);
+* Ordenando por ranking as 20 criptomoedas de maior valor de acordo com a CMC;
+* Cada uma com o seu próprio ícone, símbolo, nome e estatísticas, o redirecionando para o site com os valores de mercado da moeda corrente;
 
-## Running in your computer:
+## Rodando em seu computador:
 
-  1. You can download repository like shown below
+  1. Você pode fazer o dowload do repositório como demonstrado abaixo
 
 <center>
 
@@ -24,27 +24,24 @@
 
 </center>
 
-**or**
+**ou**
 
-  1. With [Git](https://git-scm.com/), you can write the follow command to clone the repository:
+  1. Com o [Git](https://git-scm.com/) instalado, pode escrever o seguinte comando para clonar o repositório:
       - ```bash
         $git clone  https://github.com/Eric-Gabriel-Larroque/API_Criptomoeda_JS.git    
   
-  2. You 'll need a key to get access to cmm API, too. Its just create your account here:
+  2. Você precisará de uma chave de acesso para a API, para obtê-la basta criar uma conta no próprio site:
      - [Create CMC Account](https://coinmarketcap.com/api/)  
   
-  3. At long last, to avoid API request issues, you'll need to install the follow extension from ([Moesif](https://www.moesif.com/?int_source=corsextension)). Keep the extension on while running the project:
-       - [for Chrome](https://chrome.google.com/webstore/detail/moesif-origin-cors-change/digfbfaphojjndkpccljibejjbppifbc)
+  3. Finalmente, para evitar problemas com as requisições API, você precisará instalar a seguinte extensão do ([Moesif](https://www.moesif.com/?int_source=corsextension)) Em seu computador (mantenha a extensão ligada enquanto roda o projeto):
+       - [para Chrome](https://chrome.google.com/webstore/detail/moesif-origin-cors-change/digfbfaphojjndkpccljibejjbppifbc)
        - [Mozilla](https://addons.mozilla.org/pt-BR/firefox/addon/moesif-origin-cors-changer1/)
        - [Edge](https://microsoftedge.microsoft.com/addons/detail/cors-unblock/hkjklmhkbkdhlgnnfbbcihcajofmjgbh)
   
-  4. after getting your API key creating your account, insert the key in the commented field in the js file (otherwise, if you want to develop this project, hide the key by exporting it from another js or json file).
-  5. It seems great, now you can run the project :)
-
-
+  4. Depois de ter criado sua conta e obtido a chave, a insira no campo comentado no arquivo .js (caso queira dessenvolver a aplicação, exporte a chave de outro arquivo js ou json).
 
 ## Credits:
 
-- Social media icons made by:
-  - <div><a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a>;</div>
-  - <div><a href="https://www.flaticon.com/br/autores/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a>.</div>
+- Ícones de mídia social feitos por:
+  - <div><a href="https://www.freepik.com" title="Freepik">Freepik</a> do <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a>;</div>
+  - <div><a href="https://www.flaticon.com/br/autores/pixel-perfect" title="Pixel perfect">Pixel perfect</a> do <a href="https://www.flaticon.com/br/" title="Flaticon">www.flaticon.com</a>.</div>
