@@ -2,7 +2,7 @@
 
 <center>
 
-![](../img/../API_Criptomoeda/img/cmcAPI.gif)
+![](../img/cmcAPI.gif)
 
 </center>
 
@@ -20,7 +20,7 @@
 
 <center>
 
-![](../img/../API_Criptomoeda/img/HowToDownloadRepo.gif)
+![](../img/HowToDownloadRepo.gif)
 
 </center>
 
