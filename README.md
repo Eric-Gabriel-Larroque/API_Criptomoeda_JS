@@ -38,7 +38,7 @@
        - [Mozilla](https://addons.mozilla.org/pt-BR/firefox/addon/moesif-origin-cors-changer1/)
        - [Edge](https://microsoftedge.microsoft.com/addons/detail/cors-unblock/hkjklmhkbkdhlgnnfbbcihcajofmjgbh)
   
-  4. Depois de ter criado sua conta e obtido a chave, a insira no campo comentado no arquivo .js (caso queira dessenvolver a aplicação, exporte a chave de outro arquivo js ou json).
+  4. Depois de ter criado sua conta e obtido a chave, a insira no campo comentado no arquivo .js (caso queira desenvolver a aplicação, exporte a chave de outro arquivo js ou json).
 
 ## Credits:
 
