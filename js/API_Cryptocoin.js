@@ -36,14 +36,12 @@ fetch(
                    <img src="../img/${api.data[i].symbol}.jpg" class="card-img-top" alt="${api.data[i].name} style="height= 260rem;">
                    <div class="card-body" style="padding:.1em .2em;">    
                      <h5 class="card-title">${api.data[i].name} <span>${api.data[i].symbol}</span></h5>
-                     <ol class="card-text"><strong>Primeira data de aparecimento:</strong>
+                     <ul class="card-text"><strong>Primeira data de aparecimento:</strong>
                         <li style="list-style: none;">
                         <img src=${urlIcon} style="height:1.5rem; display: inline; margin-right: 3rem;">
                         ${date}</li>
-                     </ol>
-                     <div class="card__footer">
-                     <a href="${stats}" class="btn btn-primary">Preço e estatísticas</a> 
-                     </div>                  
+                     </ul>
+                     <a href="${stats}" class="btn btn-primary">Preço e estatísticas</a>               
                    </div>
                  </div>
                      `;
