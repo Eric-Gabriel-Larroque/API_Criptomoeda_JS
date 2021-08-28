@@ -11,7 +11,8 @@
 ## Descrição:
 
 - Uma interface simples criada com [bootstrap](https://getbootstrap.com/docs/5.1/getting-started/introduction/) e com as infromações da [API do Coin Market Cap](https://coinmarketcap.com/api/);
-- Ordenando por ranking as 20 criptomoedas de maior valor de acordo com a CMC;
+- Ordenando por ranking as top 20 criptomoedas por Capitalização de Mercado
+(O valor total de mercado do fornecimento em circulação de uma criptomoeda)
 - Cada uma com o seu próprio ícone, símbolo, nome e estatísticas, o redirecionando para o site com os valores de mercado da moeda corrente;
 
 ## Rodando em seu computador:
@@ -36,7 +37,7 @@
 
    - [Create CMC Account](https://coinmarketcap.com/api/)
 
-3. Finalmente, para evitar problemas com as requisições API, você precisará instalar a seguinte extensão do ([Moesif](https://www.moesif.com/?int_source=corsextension)) Em seu computador (mantenha a extensão ligada enquanto roda o projeto):
+3. Finalmente, para evitar problemas com as requisições da API, você precisará instalar a seguinte extensão do ([Moesif](https://www.moesif.com/?int_source=corsextension)) Em seu computador (mantenha a extensão ligada enquanto roda o projeto):
 
    - [para Chrome](https://chrome.google.com/webstore/detail/moesif-origin-cors-change/digfbfaphojjndkpccljibejjbppifbc)
    - [Mozilla](https://addons.mozilla.org/pt-BR/firefox/addon/moesif-origin-cors-changer1/)
