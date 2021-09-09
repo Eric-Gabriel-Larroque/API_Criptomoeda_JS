@@ -1,4 +1,5 @@
 import api from "./key.js";
+// import server from "./server.js"
 /*  YOUR KEY HERE
         const api = {
             key: _____________
