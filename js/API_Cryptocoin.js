@@ -1,15 +1,4 @@
-import api from "./key.js";
-// import server from "./server.js"
-/*  YOUR KEY HERE
-        const api = {
-            key: _____________
-        }
-*/
-//GET Fetch Requisition
-fetch(
-  "https://pro-api.coinmarketcap.com/v1/cryptocurrency/map?CMC_PRO_API_KEY=" +
-    api.key
-)
+fetch('http://localhost:18300')
   .then((response) => {
     if (!response.ok)
       throw new Error(
