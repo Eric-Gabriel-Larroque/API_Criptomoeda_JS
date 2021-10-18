@@ -1,11 +1,13 @@
-fetch('http://localhost:18300')
-  .then((response) => {
+  await fetch('http://localhost:3005')
+
+.then(async (response) => {
     if (!response.ok)
       throw new Error(
         "Erro ao executar a requisição, status " + response.status
       );
     return response.json();
-  })
+  })  
+
   .then((api) => {
     api.data.sort((a, b) => a.rank - b.rank);
     let texto = "";
