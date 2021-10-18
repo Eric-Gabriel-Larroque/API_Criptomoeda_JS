@@ -37,7 +37,7 @@
 
    - [Create CMC Account](https://coinmarketcap.com/api/)
 
-> Caso queira simplesmente dar uma olhada no proeto a título de curiosidade, basta clicar no link do projeto hosteado na netlify [aqui](https://gabriel-larroque-cmc-frontent.netlify.app/)
+> Caso queira simplesmente dar uma olhada no projeto a título de curiosidade, basta clicar no link do projeto hosteado na netlify [aqui](https://gabriel-larroque-cmc-frontent.netlify.app/)
 
 ## Créditos:
 
