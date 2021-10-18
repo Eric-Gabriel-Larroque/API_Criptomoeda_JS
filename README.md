@@ -17,7 +17,7 @@
 
 ## Rodando em seu computador:
 
-1. Você pode fazer o dowload do repositório como demonstrado abaixo
+Você pode fazer o dowload do repositório como demonstrado abaixo
 
 <center>
 
@@ -27,17 +27,13 @@
 
 **ou**
 
-1. Com o [Git](https://git-scm.com/) instalado, pode escrever o seguinte comando para clonar o repositório:
+Com o [Git](https://git-scm.com/) instalado, pode escrever o seguinte comando para clonar o repositório:
 
    - ```bash
      $git clone  https://github.com/Eric-Gabriel-Larroque/API_Criptomoeda_JS.git
      ```
 
-2. Você precisará de uma chave de acesso para a API, para obtê-la basta criar uma conta no próprio site:</st>
-
-   - [Create CMC Account](https://coinmarketcap.com/api/)
-
-> Caso queira simplesmente dar uma olhada no proeto a título de curiosidade, basta clicar no link do projeto hosteado na netlify [aqui](https://gabriel-larroque-cmc-frontent.netlify.app/)
+> Caso queira simplesmente dar uma olhada no projeto a título de curiosidade, basta clicar no link do projeto hosteado na netlify [aqui](https://gabriel-larroque-cmc-frontent.netlify.app/)
 
 ## Créditos:
 
