@@ -2,9 +2,10 @@
   "name": "js",
   "version": "1.0.0",
   "description": "",
-  "main": "getData.js",
+  "main": "js/getData.js",
   "scripts": {
-    "dev": "nodemon getData.js",
+    "start": "node js/getData.js",
+    "dev": "nodemon js/getData.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
