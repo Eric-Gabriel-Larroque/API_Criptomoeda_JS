@@ -33,17 +33,11 @@
      $git clone  https://github.com/Eric-Gabriel-Larroque/API_Criptomoeda_JS.git
      ```
 
-2. Você precisará de uma chave de acesso para a API, para obtê-la basta criar uma conta no próprio site:
+2. Você precisará de uma chave de acesso para a API, para obtê-la basta criar uma conta no próprio site:</st>
 
    - [Create CMC Account](https://coinmarketcap.com/api/)
 
-3. Finalmente, para evitar problemas com as requisições da API, você precisará instalar a seguinte extensão do ([Moesif](https://www.moesif.com/?int_source=corsextension)) Em seu computador (mantenha a extensão ligada enquanto roda o projeto):
-
-   - [para Chrome](https://chrome.google.com/webstore/detail/moesif-origin-cors-change/digfbfaphojjndkpccljibejjbppifbc)
-   - [Mozilla](https://addons.mozilla.org/pt-BR/firefox/addon/moesif-origin-cors-changer1/)
-   - [Edge](https://microsoftedge.microsoft.com/addons/detail/cors-unblock/hkjklmhkbkdhlgnnfbbcihcajofmjgbh)
-
-4. Depois de ter criado sua conta e obtido a chave, a insira no campo comentado no arquivo .js (caso queira desenvolver a aplicação, exporte a chave de outro arquivo js ou json).
+> Caso queira simplesmente dar uma olhada no proeto a título de curiosidade, basta clicar no link do projeto hosteado na netlify [aqui](https://gabriel-larroque-cmc-frontent.netlify.app/)
 
 ## Créditos:
 
