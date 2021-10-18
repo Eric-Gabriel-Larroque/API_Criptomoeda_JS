@@ -1,11 +1,11 @@
-const {key} = require('./key')
-const express = require('express')
 const cors = require('cors')
+const express = require('express')
 const axios = require('axios')
 const app = express()
-const PORT = process.env.PORT || 8080
-
 app.use(cors())
+const dotenv = require('dotenv')
+dotenv.config({path: '../.env'})
+const key = process.env.KEY
 
 app.get('/', async (req,res) => {
 
@@ -14,4 +14,4 @@ await axios(`https://pro-api.coinmarketcap.com/v1/cryptocurrency/map?CMC_PRO_API
 return res.json(data)
 })
 
-app.listen(PORT,() => console.log(`Listen at PORT ${PORT}`))
+app.listen(process.env.PORT ||3000)

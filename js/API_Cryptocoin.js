@@ -1,4 +1,4 @@
-await fetch(`http://localhost:8080`)
+await fetch(`https://cmc-js.herokuapp.com/`)
 
 .then(async (response) => {
     if (!response.ok)
