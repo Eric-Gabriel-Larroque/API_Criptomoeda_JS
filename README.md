@@ -91,4 +91,3 @@ Com o [Git](https://git-scm.com/) instalado, pode escrever o seguinte comando pa
   - [Spothq](https://github.com/spothq/cryptocurrency-icons)
 - Imagens das criptomoedas feitas por:
   - [Cryptochips](https://www.cryptochips.io/)
->>>>>>> abf65589c5dc9d4a6fbcc2d9b7ea71ba06f7e6c0
