@@ -16,12 +16,21 @@ nav {
 #facebook {
   height: 4.2rem;
   margin-right: 3rem;
+  filter:grayscale(80%);
 }
 .social_medias {
   list-style: none;
   display: flex;
   align-items: center;
 }
+#github:hover,
+#linkedin:hover,
+#facebook:hover {
+  transition: .5s;
+  filter: grayscale(0%);
+}
+
+
 .title {
   color: #212529;
   font-family: "Open Sans", sans-serif;
