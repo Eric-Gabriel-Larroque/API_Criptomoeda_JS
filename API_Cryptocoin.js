@@ -1,4 +1,7 @@
-await fetch('https://cmc-backend-js.herokuapp.com/')
+const KEY = '90b35aa9-e7d7-44e9-a608-08c3fb1a7545'
+const CORS_URL = 'https://cors.iamnd.eu.org/?url=';
+
+await fetch(`${CORS_URL}https://pro-api.coinmarketcap.com/v1/cryptocurrency/map?CMC_PRO_API_KEY=${KEY}`)
 
 .then(async (response) => {
     if (!response.ok)
