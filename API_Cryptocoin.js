@@ -23,15 +23,17 @@ await fetch(`${CORS_URL}https://pro-api.coinmarketcap.com/v1/cryptocurrency/map?
         name: api.data[i].name
       }
       let iconSymbol = coin.symbol.toLowerCase();
+      let imagemPadrao = `onerror="this.src='../img/image-unavailable-icon.webp'"`;
       let urlIcon = `../cryptocurrency-icons-master/128/color/${iconSymbol}.png`;
       
         texto +=`<div class="card">
-                   <img src="../img/${coin.symbol}.jpg" class="card-img-top" alt="${coin.name} style="height= 260rem;">
+                   <img src="../img/${coin.symbol}.jpg" ${imagemPadrao}
+                   class="card-img-top" alt="${coin.name} style="height= 260rem;">
                    <div class="card-body" style="padding:.1em .2em;">    
                      <h5 class="card-title">${coin.name} <span>${coin.symbol}</span></h5>
                      <ul class="card-text"><strong>Primeira data de aparecimento:</strong>
                         <li style="list-style: none;">
-                        <img src=${urlIcon} class="coin-icon">
+                        <img src=${urlIcon} ${imagemPadrao} class="coin-icon">
                         ${coin.date}</li>
                      </ul>
                      <a href="${coin.stats}" class="btn btn-primary">Preço e estatísticas</a>               
